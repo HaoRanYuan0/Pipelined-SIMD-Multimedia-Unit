@@ -46,6 +46,4 @@ The tables below show the description for each operation:
 
 In the table below, 16-bit signed integer add (AHS), and subtract (SFHS) operations are performed with saturation to signed halfword rounding that takes a 16-bit signed integer X, and converts it to -32768 (the most negative 16-bit signed value) if it is less than -32768, to +32767 (the highest positive 16-bit signed value) if it is greater than 32767, and leaves it unchanged otherwise.
 ![image](https://github.com/HaoRanYuan0/Pipelined-SIMD-Multimedia-Unit/assets/121404407/36929fed-b538-4961-94b3-9d0a7827e38f)
-
-
-
+![image](https://github.com/HaoRanYuan0/Pipelined-SIMD-Multimedia-Unit/assets/121404407/8ac0dd52-991b-40ae-a015-b0e7a0b58a55)
