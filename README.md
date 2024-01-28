@@ -26,10 +26,12 @@ This file shows the outputs of the pipeline.
 ## Instruction Format and Opcode Description
 ### Load Immediate
 ![LI format figure](https://github.com/HaoRanYuan0/Pipelined-SIMD-Multimedia-Unit/assets/121404407/98d7acc4-d9f1-4bdb-a5c3-e48699135943)
+
 li: Load a 16-bit Immediate value from the [20:5] instruction field into the 16-bit field specified by the Load Index field [23:21] of the 128-bit register rd. Other fields of register rd are not changed. A li instruction first reads register rd and then (after inserting an immediate value into one of its fields) writes it back to register rd.
 
 ### Multiply-Add and Multiply-Subtract R4-Instruction Format
 ![R4 format figure](https://github.com/HaoRanYuan0/Pipelined-SIMD-Multimedia-Unit/assets/121404407/20e61e8a-2615-4e30-a9f3-44f0e8cfdac5)
+
 Signed operations are performed with saturated rounding that takes the result, and sets a floor and ceiling corresponding to the max range for that data size. This means that instead of over/underflow wrapping, the max/min values are used.
 | Data Type | Min | Max |
 | --------- | --- | --- |
