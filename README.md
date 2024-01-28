@@ -22,3 +22,5 @@ Clock edge-sensitive pipeline registers separate the IF, ID, EXE, and WB stages.
 This is a separate program written in Python. Its purpose is to convert an assembly file to the binary format for the Instruction Buffer.
 ### Results File
 This file shows the outputs of the pipeline.
+
+## Instruction Format and Opcode Description
