@@ -37,6 +37,7 @@ Signed operations are performed with saturated rounding that takes the result, a
 | --------- | --- | --- |
 | Long (64-bit) | -2^-63 | 2^63 - 1 |
 | Int (32-bit) | -2^-31 | 2^31 - 1 |
+
 The tables below show the description for each operation:
 ![image](https://github.com/HaoRanYuan0/Pipelined-SIMD-Multimedia-Unit/assets/121404407/d76b0872-cf38-43cf-ab9c-39f4f7a0de44)
 
