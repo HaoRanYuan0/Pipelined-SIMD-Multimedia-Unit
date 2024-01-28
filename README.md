@@ -37,3 +37,11 @@ Signed operations are performed with saturated rounding that takes the result, a
 | --------- | --- | --- |
 | Long (64-bit) | -2^-63 | 2^63 - 1 |
 | Int (32-bit) | -2^-31 | 2^31 - 1 |
+The tables below show the description for each operation:
+![image](https://github.com/HaoRanYuan0/Pipelined-SIMD-Multimedia-Unit/assets/121404407/d76b0872-cf38-43cf-ab9c-39f4f7a0de44)
+
+### R3 Instruction Format
+![R3 instruction format](https://github.com/HaoRanYuan0/Pipelined-SIMD-Multimedia-Unit/assets/121404407/875285c5-43d7-41da-9533-51bc8805cff2)
+In the table below, 16-bit signed integer add (AHS), and subtract (SFHS) operations are performed with saturation to signed halfword rounding that takes a 16-bit signed integer X, and converts it to -32768 (the most negative 16-bit signed value) if it is less than -32768, to +32767 (the highest positive 16-bit signed value) if it is greater than 32767, and leaves it unchanged otherwise.
+![image](https://github.com/HaoRanYuan0/Pipelined-SIMD-Multimedia-Unit/assets/121404407/36929fed-b538-4961-94b3-9d0a7827e38f)
+
