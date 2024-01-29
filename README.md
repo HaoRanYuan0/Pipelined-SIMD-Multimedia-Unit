@@ -6,7 +6,7 @@ This project uses VHDL hardware description language for the structural and beha
 ![image002](https://github.com/HaoRanYuan0/Pipelined-SIMD-Multimedia-Unit/assets/121404407/38ef0a7f-161d-4880-9bf4-7afec1fc9130)
 
 Running the project fully requires the installation of [Aldec Active-HDL](https://www.aldec.com/en/products/fpga_simulation/active_hdl_student) and Python.
-<u>**For a quick skim of the project's main contents (source files)**</u>, the component files are located in Multimedia_Pipeline -> Proj -> src, the top-level file is in the same folder, titled "Multimedia_SPU". 
+<u>For a quick skim of the project's main contents (source files)</u>, the component files are located in Multimedia_Pipeline -> Proj -> src, the top-level file is in the same folder, titled "Multimedia_SPU". 
 
 For running the project, open the workspace via the .aws file named "ESE345_Proj", set "Multimedia_SPU" as top-level in settings, and start the simulator.
  
