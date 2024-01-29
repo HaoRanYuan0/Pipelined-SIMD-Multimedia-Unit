@@ -1,9 +1,15 @@
 # Pipelined SIMD Multimedia Unit
 
-## Objective
-To use VHDL hardware description language and modern CAD tools for the structural and behavioral design of a four-stage pipelined multimedia unit with a reduced set of multimedia instructions similar to those in the Sony Cell SPU and Intel SSE architectures.
+## Abstract
+This project uses VHDL hardware description language for the structural and behavioral design of a four-stage pipelined multimedia unit with a reduced set of multimedia instructions similar to those in the Sony Cell SPU and Intel SSE architectures. The components and data flow of the pipeline is shown in the image below.
 
 ![image002](https://github.com/HaoRanYuan0/Pipelined-SIMD-Multimedia-Unit/assets/121404407/38ef0a7f-161d-4880-9bf4-7afec1fc9130)
+
+Running the project fully requires the installation of [Aldec Active-HDL](https://www.aldec.com/en/products/fpga_simulation/active_hdl_student) and Python.
+__For a quick skim of the project's main contents (source files)__, the component files are located in Multimedia_Pipeline -> Proj -> src, the top-level file is in the same folder, titled "Multimedia_SPU". 
+
+For running the project, open the workspace via the .aws file named "ESE345_Proj", set "Multimedia_SPU" as top-level in settings, and start the simulator.
+ 
 
 ## Components
 The complete 4-stage pipelined design is developed in a structural/RTL manner with several modules operating simultaneously. Each module represents a pipelined stage with its interstage register. The major units inside those stages modules are described below.
