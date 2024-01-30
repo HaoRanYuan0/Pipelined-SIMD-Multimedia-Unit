@@ -10,6 +10,7 @@ Running the project fully requires the installation of [Aldec Active-HDL](https:
 
 For running the project, open the workspace via the .aws file named "ESE345_Proj", set "Multimedia_SPU" as top-level in settings, and start the simulator. The signals can be viewed by adding them to waveform.
 
+--------------------------------------------------------------------------------------------------------------------------------------
 # Full Description
 
 ## Components
